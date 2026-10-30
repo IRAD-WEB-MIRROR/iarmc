@@ -326,6 +326,9 @@ table.data .num { text-align: right; font-variant-numeric: tabular-nums; white-s
   object-fit: cover;
 }
 
+.photo-fig--archive { max-width: 560px; }
+.photo-fig--archive img { aspect-ratio: 4 / 3; border: 10px solid #f4f1ea; box-shadow: 0 1px 4px rgba(0,0,0,.25); }
+
 .photo-fig figcaption { margin-top: 8px; color: var(--steel); font-size: 13px; }
 
 /* Notes and downloads */
