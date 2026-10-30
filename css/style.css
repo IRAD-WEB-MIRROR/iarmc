@@ -720,3 +720,7 @@ ul.news li b {
   .footer-cols { grid-template-columns: 1fr; }
   .logo .name small { display: none; }
 }
+
+.photo-fig--crest { max-width: 220px; float: right; margin: 0 0 16px 24px; }
+.photo-fig--crest img { aspect-ratio: auto; object-fit: contain; }
+@media (max-width: 640px) { .photo-fig--crest { float: none; margin: 0 auto 16px; max-width: 160px; } }
